@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Courgette&family=Halant:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid #155EEF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1% 2%;
+    align-items: center;
+}
+
+header,
+.hero-section {
+    margin-top: 1%;
+}
+
+.links {
+    width: 30%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;     
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 1.5%;    
+}
+
+.hire-btn {
+    border: 1px solid #155EEF;
+    border-radius: 8px;    
+    padding: 2% 3%;    
+}
+
+.hire-btn a {
+    color: #155EEF;
+    font-weight: 700;
+    font-size: 16px;
+} 
+
+.hero {
+    padding: 2%;
+}
+
+.hero-section .btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: #155EEF;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.font-halant {
+    font-family: 'Halant';
+}
+
+.intro h4 {
+    color: #2E3A53;
+    font-size: 20px;
+}
+
+.intro h2 {
+    color: #155EEF;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.intro p {      
+    margin-bottom: 4%; 
+    width: 85%;   
+}
+
+.p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%; 
+}
+
+.about-section,
+.footer-section {
+    margin-top: 4%;
+}
+
+.about {
+    padding: 3% 2%;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    margin-bottom: 4%;
+    color: #041330;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    margin-top: 5%;
+    padding: 0;
+}
+
+.footer-section {
+    margin-bottom: 1%;
+}
+
+.footer-section p {
+    color: #041330;
+}
