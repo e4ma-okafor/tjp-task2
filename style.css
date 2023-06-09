@@ -40,7 +40,8 @@ header,
 }
 
 .nav-links a {
-    text-decoration: none;     
+    text-decoration: none;
+    color: #041330
 }
 
 .nav-link {
