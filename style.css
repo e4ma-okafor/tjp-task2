@@ -46,7 +46,7 @@ header,
 .nav-link {
     font-size: 20px;
     font-weight: 500;
-    margin-top: 1.5%;    
+    margin-top: 1.5%;        
 }
 
 .hire-btn {
@@ -73,7 +73,7 @@ header,
     color: #FFFFFF;
     background: #155EEF;
     border-radius: 8px;
-    padding: 10px 16px;
+    padding: 2% 3%;
     border: none;
     cursor: pointer;
 }
@@ -82,8 +82,7 @@ header,
     font-family: 'Halant';
 }
 
-.intro h4 {
-    color: #2E3A53;
+.intro h4 {    
     font-size: 20px;
 }
 
@@ -95,7 +94,7 @@ header,
 
 .intro p {      
     margin-bottom: 4%; 
-    width: 85%;   
+    width: 85%;       
 }
 
 .p {
@@ -114,15 +113,18 @@ header,
 }
 
 .about-text {
-    width: 50%;
+    width: 50%;    
+}
+
+.text-sec {
+    color: #2E3A53;
 }
 
 .about-text h2 {
     font-weight: 600;
     font-size: 40px;
     line-height: 120%;
-    margin-bottom: 4%;
-    color: #041330;
+    margin-bottom: 4%;    
 }
 
 .footer-links {
@@ -141,6 +143,6 @@ header,
     margin-bottom: 1%;
 }
 
-.footer-section p {
+.text-primary {
     color: #041330;
 }
