@@ -40,8 +40,7 @@ header,
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: #041330
+    text-decoration: none;     
 }
 
 .nav-link {
@@ -121,7 +120,8 @@ header,
     color: #2E3A53;
 }
 
-.about-text h2 {
+.about-text h2,
+.projects-section h3{
     font-weight: 600;
     font-size: 40px;
     line-height: 120%;
@@ -131,7 +131,8 @@ header,
 .footer-links {
     display: flex;
     justify-content: space-between;
-    width: 10%;
+    width: 20%;
+    margin-top: 2%;
 }
 
 .footer-links a{
@@ -146,4 +147,154 @@ header,
 
 .text-primary {
     color: #041330;
+}
+
+.hide {
+    display: none;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+}
+/*
+.pro-image {
+    width: 65%;
+    z-index: -1;
+    position: absolute;
+    top: 10;
+}
+
+.pro-image img {
+    width: 100%;
+}
+
+.projects-section {
+    margin-top: 4%;    
+}
+
+.projects-section .container {
+    position: relative;
+    padding: 3%;
+}
+
+.pro-text {
+    background: #F9FBFF;
+    width: 65%;
+    padding: 2%;
+    line-height: 150%; 
+    z-index: 2; 
+    position: absolute;
+    top: 2;  
+}
+
+.pro-text h3 {
+    margin-top: 2%;
+}
+
+.pro-text ul {
+    margin: 4% 0;
+    padding: 0 5%;
+}
+
+.pro-text ul > li {
+    margin-top: 2%;
+}
+
+.mb {
+    margin-top: 4%;
+}*/
+
+@media screen and (max-width: 426px) {
+    .container {
+        width: 90%; 
+        margin-top: 5%;       
+    }
+
+    header .container {
+        margin-top: 2%;
+    }
+
+    section .container,
+    footer .container {
+        flex-direction: column;        
+    }
+
+    .nav-logo img {
+        width: 50%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .hide {
+        display: inline-block !important;
+    }
+
+    .hero-image,
+    .intro,
+    .about-image {
+        text-align: center;        
+        margin-top: 5%;
+    }
+
+    .hero-image img {
+        width: 80%;        
+    }
+
+    .intro p {
+        width: 100%;
+        padding: 0 3%;
+    }
+
+    .p {
+        font-size: 14px;        
+    } 
+    
+    .intro .btn {
+        width: 100%;
+        margin-bottom: 6%;
+        margin-top: 5%;
+    }
+
+    .about-image {
+        order: 2;
+    }
+
+    .about-image img {
+        width: 90%;
+    }
+
+    .about-text h2 {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .about-text {
+        order: 1;
+        width: 100%;
+        padding: 0 2%;
+        text-align: justify;
+    }
+
+    .footer-logo img {
+        width: 65%;
+    }
+
+    .flex {
+        width: 100%;
+        margin: 5% 0;
+        padding-right: 2%;
+    }
+
+    .copy {
+        margin-bottom: 5%;
+    }
+
+    .footer-links {
+        width: 30%;
+        margin-top: 0.2%;
+    }
 }
