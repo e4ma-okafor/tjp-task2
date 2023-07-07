@@ -171,24 +171,55 @@ nav {
     color: #041330;
 }
 
-.hide {
+.hamburger,
+.close-menu {
     display: none;
 }
 
-.flex{
+.footer{
     display: flex;
     justify-content: space-between;
     width: 52%;
 }
 
+.top {
+    position: fixed;
+    right: 2.5%;
+    bottom: 22%;    
+    z-index: 1;
+}
+
+.nav2 {
+    display: none;      
+}
+
+.nav2 a {
+    text-decoration: none;    
+    font-weight: 600;
+    padding: 0 10% 3%;
+    border-bottom: 1px solid #030E27;     
+}
+
 @media screen and (max-width: 426px) {
     .nav-links {
         display: none;
+    }  
+
+    .hamburger.active,
+    .close-menu.active {
+        display: inline-block !important;
     }
 
-    .hide {
-        display: inline-block !important;
-    }   
+    .nav2.visible {
+        display: flex !important;
+        flex-direction: column;
+        height: 100dvh;
+        gap: 20%;
+        align-items: center;
+        padding-top: 5%;
+        width: 100%;  
+        background: #F9FBFF;         
+    }     
 
     .nav-logo img {
         width: 60%;
@@ -256,13 +287,13 @@ nav {
         width: 60%;
     }
 
-    .flex {
+    .footer {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 321px) {
-    .flex {
+    .footer {
         width: 85%;
     } 
     
