@@ -214,6 +214,7 @@ nav {
         display: flex !important;
         flex-direction: column;
         height: 100dvh;
+        position: fixed;
         gap: 20%;
         align-items: center;
         padding-top: 5%;
