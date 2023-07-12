@@ -210,13 +210,6 @@ nav {
         display: inline-block !important;
     }
 
-    .header .container{
-        width: 100% !important;
-        position: fixed !important;
-        z-index: 2;
-        background: #fff;
-    }
-
     .nav2.visible {
         display: flex !important;
         flex-direction: column;
