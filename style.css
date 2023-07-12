@@ -210,9 +210,9 @@ nav {
         display: inline-block !important;
     }
 
-    header {
+    header .container {
         position: fixed !important;
-        z-index: 3;
+        z-index: 2;
     }
 
     .nav2.visible {
@@ -220,7 +220,7 @@ nav {
         flex-direction: column;
         height: 100dvh;
         position: fixed !important;
-        z-index: 3;
+        z-index: 2;
         gap: 20%;
         align-items: center;
         padding-top: 5%;
