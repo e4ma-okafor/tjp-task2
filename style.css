@@ -210,7 +210,7 @@ nav {
         display: inline-block !important;
     }
 
-    .header {
+    .header .container{
         width: 100% !important;
         position: fixed !important;
         z-index: 2;
