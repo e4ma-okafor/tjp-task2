@@ -210,11 +210,17 @@ nav {
         display: inline-block !important;
     }
 
+    header {
+        position: fixed !important;
+        z-index: 3;
+    }
+
     .nav2.visible {
         display: flex !important;
         flex-direction: column;
         height: 100dvh;
         position: fixed !important;
+        z-index: 3;
         gap: 20%;
         align-items: center;
         padding-top: 5%;
