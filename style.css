@@ -210,6 +210,10 @@ nav {
         display: inline-block !important;
     }
 
+    body {
+        position: relative !important;
+    }
+
     .header.container {
         position: fixed !important;
         z-index: 2;
