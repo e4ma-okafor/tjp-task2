@@ -210,13 +210,11 @@ nav {
         display: inline-block !important;
     }
 
-    body {
-        position: relative !important;
-    }
-
-    .header.container {
+    .header {
+        width: 100% !important;
         position: fixed !important;
         z-index: 2;
+        background: #fff;
     }
 
     .nav2.visible {
