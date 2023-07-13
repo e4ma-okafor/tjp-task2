@@ -200,6 +200,8 @@ nav {
     border-bottom: 1px solid #030E27;     
 }
 
+
+
 @media screen and (max-width: 426px) {
     .nav-links {
         display: none;
@@ -210,16 +212,24 @@ nav {
         display: inline-block !important;
     }
 
-    .nav2.visible {
+    .header.menu {
+        position: fixed !important;
+        z-index: 3;        
+        width: 94%;  
+        background-color: #F9FBFF;      
+    }
+
+    .nav2.visible {        
         display: flex !important;
         flex-direction: column;
-        height: 100dvh;
+        height: 100dvh;        
         position: fixed !important;
         z-index: 2;
-        gap: 20%;
+        top: 15%;
+        gap: 20%;        
         align-items: center;
         padding-top: 5%;
-        width: 100%;  
+        width: 94%;
         background: #F9FBFF;         
     }     
 
